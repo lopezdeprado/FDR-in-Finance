@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "numpy==2.2.6",
+#   "pandas==2.2.3",
+#   "scipy==1.15.3",
+# ]
+# ///
+
 # ============================================================
 # Replication code for Section 6 and Table 2
 # Unequal-variance version with sigma_1 >= sigma_0
