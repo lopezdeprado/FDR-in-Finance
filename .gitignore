@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.uv/
+
+# Generated output files
+*.csv
+!PredictorLSretWide.csv
