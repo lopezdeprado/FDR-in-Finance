@@ -20,8 +20,5 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install pytest and pytest-cov
-        run: uv pip install pytest pytest-cov
-
       - name: Run tests with coverage
         run: uv run --with pytest --with pytest-cov pytest tests/ --cov --cov-report=term-missing
